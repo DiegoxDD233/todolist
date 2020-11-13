@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/cv_item"
+    card_view:cardCornerRadius="10dp">
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recycler_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:gravity="left"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+
+        android:foreground="?android:attr/selectableItemBackground"
+
+        />
+
+
+
+</androidx.cardview.widget.CardView>
